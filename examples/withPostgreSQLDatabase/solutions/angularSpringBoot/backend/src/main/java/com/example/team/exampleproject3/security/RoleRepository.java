@@ -6,9 +6,11 @@ import java.util.Set;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Repository;
 
 import com.example.team.exampleproject3.model.Role;
 
+@Repository
 public interface RoleRepository extends PagingAndSortingRepository<Role, Integer>  {
     /**
      * Gets all roles for the specified user id.

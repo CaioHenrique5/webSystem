@@ -3,9 +3,8 @@ package com.example.team.exampleproject3.model;
 
 
 import javax.persistence.*;
-
-import java.security.Permission;
 import java.util.Set;
+import com.example.team.exampleproject3.model.*;
 
 /**
  * Model for table: ROLE.

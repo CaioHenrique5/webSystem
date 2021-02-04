@@ -9,9 +9,6 @@ import org.springframework.stereotype.Service;
 import com.example.team.exampleproject3.model.Role;
 
 
-@Component
-@Service
-
 public class RoleService {
 
     /**
