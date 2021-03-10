@@ -4,7 +4,6 @@ package com.example.team.exampleproject3.model;
 
 import javax.persistence.*;
 import java.util.Set;
-import com.example.team.exampleproject3.model.*;
 
 /**
  * Model for table: ROLE.
@@ -124,5 +123,14 @@ public class Role {
      */
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
+    }
+    public Role(String name) {
+        this.name = name;
+    }
+    public Role() {
+    }
+
+    public String getAuthority() {
+        return  this.name;
     }
 }

@@ -6,8 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.example.team.exampleproject3.model.*;
-
 @Entity(name = "permission")
 public class Permission extends Model {
 

@@ -3,12 +3,11 @@ package com.example.team.exampleproject3.security;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.example.team.exampleproject3.model.Role;
 
-
+@Service
 public class RoleService {
 
     /**
